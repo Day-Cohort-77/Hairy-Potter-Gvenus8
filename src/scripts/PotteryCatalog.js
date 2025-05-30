@@ -1,35 +1,18 @@
-//import { firePottery } from "./Kiln"
-
 let potteryKeep = []
 export const toSellOrNotToSell = (pottery) => {
-     if (pottery.cracked === false) {
-            if (pottery.weight >= 6)    {    
-                pottery.price = 40
+    if (pottery.cracked === false) {
+        if (pottery.weight >= 6) {
+            pottery.price = 40
         } else {
             pottery.price = 20
         }
-        //if (pottery.cracked = "true") {
-       // } else {
-            potteryKeep.push(pottery)
-        
+        potteryKeep.push(pottery)
     }
     return pottery
 }
 export const usePottery = () => {
-return potteryKeep.map(pottery => pottery)    
+    return potteryKeep.map(pottery => pottery)
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

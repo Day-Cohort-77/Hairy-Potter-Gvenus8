@@ -1,10 +1,10 @@
 import { usePottery } from "./PotteryCatalog.js"
 
 export const PotteryList = () => {
-const potteryArray = usePottery() // Get the array from your function
-  let potteryString = ""  
-    for (const pots of potteryArray) {
-        potteryString +=`
+  const potteryArray = usePottery() // Get the array from your function
+  let potteryString = ""
+  for (const pots of potteryArray) {
+    potteryString += `
          <section class="pottery" id="pottery--1">
      <h2 class="pottery__shape">${pots.shape}</h2>
      <div class="pottery__properties">
@@ -13,8 +13,8 @@ const potteryArray = usePottery() // Get the array from your function
      <div class="pottery__price">Price is ${pots.price}</div>
    </section>`
 
-}
-return potteryString
+  }
+  return potteryString
 }
 
 //1. Create a `scripts/PotteryList.js` module.

@@ -28,10 +28,7 @@ const finalList= PotteryList()
 console.log(finalList)
 const potteryHTMLRef= document.querySelector(".potteryList")
 potteryHTMLRef.innerHTML= finalList
-//console.log(finVase)
-//console.log(finPlate)
-//console.log(finBookend)
-///console.log(finStatue)
+
 
 
 
@@ -40,10 +37,6 @@ potteryHTMLRef.innerHTML= finalList
  //for each of the 5 pieces of pottery you created. 
 //Ensure you provide the required value as an argument.
 // Fire each piece of pottery in the kiln
-
-
 // Determine which ones should be sold, and their price
-
-
 // Invoke the component function that renders the HTML list
 
